@@ -1,0 +1,52 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>formulario de registro SCIII</title>
+    <link herf="estilos.css" rel="stylesheet" tyce="text/css"> 
+     <link href="proyecto.css" rel="stylesheet" tyce="text/css"> 
+    </head>
+   <center> <body>
+        <nav class= "menu">
+                <h2>CBTA_WEB</h2>
+            <a href="INICIO.html">INICIO</a>
+            <a href="MATERIALES.HTML">MATERIALES</a>
+            <a href="OBJETIVO.HTML">OBJETIVO</a>
+            <a href="PRESUPUESTO.HTML">PRESUPUESTO</a>
+            <a href="FORMULARIO_REGISTRO.html">FORMULARIO</a>
+    </nav>
+        <div class="group">
+            <form action="registro.php" method="post">
+            <h2><em>formularo de registro</em></h2>
+    <table>
+<tr>
+            <td><label for="nombres">NOMBRES<span><em>(requerido)</em></span></label>
+            <td><input typ="text" name="nombres" clas="forn-input"required/>
+</tr> 
+<tr>
+            <td><label for="apellidos">APELLIDOS<span><em>(requerido)</em></span></label>
+            <td><input type="text" name="apellidos" class="form-input" required/>
+</tr>
+<tr>
+            <td><label for="email">Email<span><em>(requerido)</em></span></label>
+            <td><input type="text" name="email" class="form-input" placeholder="requerido"required/>
+</tr> 
+<tr>
+            <td><label for="contraseña">CONTRASEÑA<span><em>(requerido)</em></span></label>
+            <td><input type="password" name="contraseña" clas="forn-input" placeholder="********"required/>
+</tr> 
+<tr>
+            <td><label for="confirmar_contraseña">CONFIRMAR_CONTRASEÑA<span><em>(requerido)</em></span></label>
+            <td><input type="password" name="confirmar_contraseña" clas="forn-input" placeholder="********"required/>
+</tr> 
+<tr>
+<center>
+
+            <td><label><input type="submit" value="SUSCRIBIRSE"/></label></td>
+            <td><label><input type="reset" value="BORRAR"/></label></td>
+</center>
+</tr>
+</table>      
+</form> 
+</div>
+</body></center>
+</html>

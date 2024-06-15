@@ -1,0 +1,42 @@
+h1{
+font-family:monospace;
+font-size:30px;
+font-weight:bold;
+color:#fff;
+padding:15px;
+}
+body{
+background-color:skyblue;
+}
+table{
+width:10%;
+border:1px solid #1000;
+}
+th,td{
+width:25%;
+text-align:left;
+vertical-align:top;
+border:1px solid #1000;
+border-collapse:collapse;
+padding:0.3em;
+caption-side:bottom;
+background-color:azure;
+}
+caption{
+padding:0.3em;
+color:#fff;
+background:#000;
+}
+th{
+background:#eee;
+}
+input [type=button], input[type=submit], input[type=reset]{
+    background-color:black;
+    border:none;
+    color:aqua
+    padding:15px 30px;
+    text-decoration:none;
+    margin:4px 2px;
+    cursor:pointer;
+    color:aliceblue;
+}
